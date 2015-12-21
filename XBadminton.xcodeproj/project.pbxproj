@@ -14,6 +14,13 @@
 		585718611C26F06B009CCCF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585718601C26F06B009CCCF0 /* Images.xcassets */; };
 		585718641C26F06B009CCCF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585718621C26F06B009CCCF0 /* LaunchScreen.xib */; };
 		585718701C26F06B009CCCF0 /* XBadmintonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5857186F1C26F06B009CCCF0 /* XBadmintonTests.m */; };
+		5857187F1C26F608009CCCF0 /* 分类查看.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857187A1C26F608009CCCF0 /* 分类查看.png */; };
+		585718801C26F608009CCCF0 /* 左侧功能栏.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857187B1C26F608009CCCF0 /* 左侧功能栏.png */; };
+		585718811C26F608009CCCF0 /* 新闻.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857187C1C26F608009CCCF0 /* 新闻.png */; };
+		585718821C26F608009CCCF0 /* 设置.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5857187D1C26F608009CCCF0 /* 设置.PNG */; };
+		585718831C26F608009CCCF0 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857187E1C26F608009CCCF0 /* 首页.png */; };
+		587719901C283B8E007C44C6 /* 详细.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5877198F1C283B8E007C44C6 /* 详细.PNG */; };
+		587719921C283FBE007C44C6 /* 列表.png in Resources */ = {isa = PBXBuildFile; fileRef = 587719911C283FBE007C44C6 /* 列表.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		585718691C26F06B009CCCF0 /* XBadmintonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBadmintonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5857186E1C26F06B009CCCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5857186F1C26F06B009CCCF0 /* XBadmintonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBadmintonTests.m; sourceTree = "<group>"; };
+		5857187A1C26F608009CCCF0 /* 分类查看.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分类查看.png"; sourceTree = "<group>"; };
+		5857187B1C26F608009CCCF0 /* 左侧功能栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左侧功能栏.png"; sourceTree = "<group>"; };
+		5857187C1C26F608009CCCF0 /* 新闻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新闻.png"; sourceTree = "<group>"; };
+		5857187D1C26F608009CCCF0 /* 设置.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.PNG"; sourceTree = "<group>"; };
+		5857187E1C26F608009CCCF0 /* 首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页.png"; sourceTree = "<group>"; };
+		5877198C1C282E2D007C44C6 /* SHMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMacroDefine.h; sourceTree = "<group>"; };
+		5877198F1C283B8E007C44C6 /* 详细.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详细.PNG"; sourceTree = "<group>"; };
+		587719911C283FBE007C44C6 /* 列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,7 @@
 				585718581C26F06B009CCCF0 /* AppDelegate.m */,
 				5857185A1C26F06B009CCCF0 /* ViewController.h */,
 				5857185B1C26F06B009CCCF0 /* ViewController.m */,
+				5877198C1C282E2D007C44C6 /* SHMacroDefine.h */,
 				5857185D1C26F06B009CCCF0 /* Main.storyboard */,
 				585718601C26F06B009CCCF0 /* Images.xcassets */,
 				585718621C26F06B009CCCF0 /* LaunchScreen.xib */,
@@ -97,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				585718541C26F06B009CCCF0 /* Info.plist */,
+				585718791C26F608009CCCF0 /* pic */,
 				585718551C26F06B009CCCF0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -117,6 +134,20 @@
 				5857186E1C26F06B009CCCF0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		585718791C26F608009CCCF0 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				5857187A1C26F608009CCCF0 /* 分类查看.png */,
+				5857187B1C26F608009CCCF0 /* 左侧功能栏.png */,
+				5857187C1C26F608009CCCF0 /* 新闻.png */,
+				5857187D1C26F608009CCCF0 /* 设置.PNG */,
+				5857187E1C26F608009CCCF0 /* 首页.png */,
+				5877198F1C283B8E007C44C6 /* 详细.PNG */,
+				587719911C283FBE007C44C6 /* 列表.png */,
+			);
+			path = pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +230,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587719921C283FBE007C44C6 /* 列表.png in Resources */,
+				5857187F1C26F608009CCCF0 /* 分类查看.png in Resources */,
 				5857185F1C26F06B009CCCF0 /* Main.storyboard in Resources */,
+				585718821C26F608009CCCF0 /* 设置.PNG in Resources */,
 				585718641C26F06B009CCCF0 /* LaunchScreen.xib in Resources */,
+				585718831C26F608009CCCF0 /* 首页.png in Resources */,
+				585718801C26F608009CCCF0 /* 左侧功能栏.png in Resources */,
+				587719901C283B8E007C44C6 /* 详细.PNG in Resources */,
+				585718811C26F608009CCCF0 /* 新闻.png in Resources */,
 				585718611C26F06B009CCCF0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +388,7 @@
 				INFOPLIST_FILE = XBadminton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,6 +399,7 @@
 				INFOPLIST_FILE = XBadminton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +456,7 @@
 				585718751C26F06B009CCCF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		585718761C26F06B009CCCF0 /* Build configuration list for PBXNativeTarget "XBadmintonTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +465,7 @@
 				585718781C26F06B009CCCF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
