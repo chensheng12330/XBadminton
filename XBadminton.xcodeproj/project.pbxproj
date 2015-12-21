@@ -21,6 +21,7 @@
 		585718831C26F608009CCCF0 /* 首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857187E1C26F608009CCCF0 /* 首页.png */; };
 		587719901C283B8E007C44C6 /* 详细.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5877198F1C283B8E007C44C6 /* 详细.PNG */; };
 		587719921C283FBE007C44C6 /* 列表.png in Resources */ = {isa = PBXBuildFile; fileRef = 587719911C283FBE007C44C6 /* 列表.png */; };
+		587719941C284552007C44C6 /* 羽毛球神器.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 587719931C284552007C44C6 /* 羽毛球神器.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		5877198C1C282E2D007C44C6 /* SHMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHMacroDefine.h; sourceTree = "<group>"; };
 		5877198F1C283B8E007C44C6 /* 详细.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详细.PNG"; sourceTree = "<group>"; };
 		587719911C283FBE007C44C6 /* 列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表.png"; sourceTree = "<group>"; };
+		587719931C284552007C44C6 /* 羽毛球神器.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "羽毛球神器.pdf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		585718531C26F06B009CCCF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				587719931C284552007C44C6 /* 羽毛球神器.pdf */,
 				585718541C26F06B009CCCF0 /* Info.plist */,
 				585718791C26F608009CCCF0 /* pic */,
 				585718551C26F06B009CCCF0 /* main.m */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				587719921C283FBE007C44C6 /* 列表.png in Resources */,
+				587719941C284552007C44C6 /* 羽毛球神器.pdf in Resources */,
 				5857187F1C26F608009CCCF0 /* 分类查看.png in Resources */,
 				5857185F1C26F06B009CCCF0 /* Main.storyboard in Resources */,
 				585718821C26F608009CCCF0 /* 设置.PNG in Resources */,
@@ -385,7 +389,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = XBadminton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -396,7 +402,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = XBadminton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
